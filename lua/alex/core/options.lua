@@ -15,9 +15,9 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.termguicolors = true
-opt.background = 'dark'
+opt.background = "dark"
 
 opt.splitright = true
 opt.splitbelow = true
 
-opt.iskeyword:append('-')
+opt.iskeyword:append("-")
