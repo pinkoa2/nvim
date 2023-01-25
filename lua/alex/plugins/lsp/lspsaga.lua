@@ -16,6 +16,6 @@ saga.init_lsp_saga({
 		edit = "<CR>",
 	},
 	code_action_lightbulb = {
-    enable = false
-  },
+		enable = false,
+	},
 })

@@ -28,6 +28,7 @@ end
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
+	use("xiyaowong/nvim-transparent")
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 	use("tpope/vim-surround")
 	use("vim-scripts/ReplaceWithRegister")

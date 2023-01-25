@@ -70,6 +70,11 @@ lspconfig["jedi_language_server"].setup({
 	on_attach = on_attach,
 })
 
+lspconfig["rust_analyzer"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 -- configure lua server (with special settings)
 lspconfig["sumneko_lua"].setup({
 	capabilities = capabilities,

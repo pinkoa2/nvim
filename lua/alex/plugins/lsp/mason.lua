@@ -25,6 +25,7 @@ mason_lspconfig.setup({
 		"tsserver",
 		"sumneko_lua",
 		"jedi_language_server",
+		"rust_analyzer",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
@@ -35,6 +36,7 @@ mason_null_ls.setup({
 	ensure_installed = {
 		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
+		"rustfmt",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

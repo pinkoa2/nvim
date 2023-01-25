@@ -1,0 +1,36 @@
+{
+	"Insert Mocha Test Template": {
+		"prefix": "itest",
+		"body": [
+			"it('scenario: $1 | outcome: $2', async function () {",
+			"\t$LINE_COMMENT -- Setup",
+			"\t$0",
+			"\t$LINE_COMMENT -- Data",
+			"",
+			"\t$LINE_COMMENT -- Invoke",
+			"",
+			"\t$LINE_COMMENT -- Observe",
+			"",
+			"});"
+		],
+		"description": "Insert the boilerplate for a Mocha test"
+	},
+	"Insert Mocha Describe & Test Template": {
+		"prefix": "ditest",
+		"body": [
+			"describe('$4', () => {",
+			"\tit('scenario: $1 | outcome: $2', async function () {",
+			"\t\t$LINE_COMMENT -- Setup",
+			"\t\t$0",
+			"\t\t$LINE_COMMENT -- Data",
+			"",
+			"\t\t$LINE_COMMENT -- Invoke",
+			"",
+			"\t\t$LINE_COMMENT -- Observe",
+			"",
+			"\t});",
+			"})"
+		],
+		"description": "Insert the boilerplate for a Mocha test"
+	}
+}
