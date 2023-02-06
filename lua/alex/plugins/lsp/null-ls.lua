@@ -20,6 +20,8 @@ null_ls.setup({
 		formatting.eslint_d, -- js/ts formatter
 		formatting.stylua, -- lua formatter
 		formatting.rustfmt,
+		formatting.yamlfmt,
+		formatting.markdownlint,
 		diagnostics.eslint_d,
 		-- formatting.prettier.with({ disabled_filetypes = { "typescript", "javascript" } }),
 	},
