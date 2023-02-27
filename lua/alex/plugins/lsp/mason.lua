@@ -23,7 +23,7 @@ mason_lspconfig.setup({
 	-- list of servers for mason to install
 	ensure_installed = {
 		"tsserver",
-		"sumneko_lua",
+		"lua_ls",
 		"jedi_language_server",
 		"rust_analyzer",
 	},
@@ -37,8 +37,8 @@ mason_null_ls.setup({
 		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
 		"rustfmt",
-		"yamlfmt",
 		"markdownlint",
+		"autopep8",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

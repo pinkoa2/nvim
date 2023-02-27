@@ -22,6 +22,7 @@ null_ls.setup({
 		formatting.rustfmt,
 		formatting.yamlfmt,
 		formatting.markdownlint,
+		formatting.autopep8,
 		diagnostics.eslint_d,
 		-- formatting.prettier.with({ disabled_filetypes = { "typescript", "javascript" } }),
 	},
